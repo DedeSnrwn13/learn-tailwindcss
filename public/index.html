@@ -30,7 +30,7 @@
     <style type="text/tailwindcss"></style>
 </head>
 <body>
-    <h1 class="text-8xl font-bold text-center my-10 bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-200">Mari Belajar <span class="bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">TailwindCSS</span></h1>
+    <h1 class="my-10 font-bold text-center text-8xl bg-gradient-to-r from-indigo-200 via-red-200 to-yellow-200">Mari Belajar <span class="text-transparent bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text">TailwindCSS</span></h1>
 
     <section class="mb-10 bg-indigo-200">
         <h2 class="text-3xl text-center">Spacing</h2>
@@ -43,12 +43,24 @@
         <div class="w-32 h-32 bg-yellow-200">Kotak 1</div>
     </section>
 
-    <section class="mb-52 font-inter max-w-3xl mx-auto">
-        <h2 class="mb-2 text-4xl  font-bold">Belajar Mengenai Typography Pad TailwindCSS</h2>
-        <div class="mb-4 text-lg text-gray-500">By  <a href="#" class="text-gray-700 font-semibold">Snrwn</a>, Apr 15 2023</div>
-        <p class="mb-4">Lorem ipsum dolor sit, amet <a href="#" class="underline font-semibold">consectetur</a> adipisicing elit. Sint blanditiis esse, at dolorem id doloribus dolore iusto commodi quis hic amet voluptatibus ad maxime sequi, repellendus dolores? Tempora esse, temporibus assumenda delectus saepe fugiat in! Explicabo, quae debitis ipsum, iste dolor aut id qui expedita nihil quis omnis obcaecati numquam?</p>
-        <blockquote class="mb-4 italic font-thin text-xl">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum unde delectus qui aspernatur error consequatur sed facilis deserunt quaerat nulla."</blockquote>
+    <section class="max-w-3xl mx-auto font-inter">
+        <h2 class="mb-2 text-4xl font-bold">Belajar Mengenai Typography Pad TailwindCSS</h2>
+        <div class="mb-4 text-lg text-gray-500">By  <a href="#" class="font-semibold text-gray-700">Snrwn</a>, Apr 15 2023</div>
+        <p class="mb-4">Lorem ipsum dolor sit, amet <a href="#" class="font-semibold underline">consectetur</a> adipisicing elit. Sint blanditiis esse, at dolorem id doloribus dolore iusto commodi quis hic amet voluptatibus ad maxime sequi, repellendus dolores? Tempora esse, temporibus assumenda delectus saepe fugiat in! Explicabo, quae debitis ipsum, iste dolor aut id qui expedita nihil quis omnis obcaecati numquam?</p>
+        <blockquote class="mb-4 text-xl italic font-thin">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum unde delectus qui aspernatur error consequatur sed facilis deserunt quaerat nulla."</blockquote>
         <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque ut aut quia ullam a pariatur harum, veritatis doloribus repellendus fuga atque sed ratione maiores numquam totam, deserunt iste, eius mollitia.</p>
     </section>
+
+    <div class="max-w-xl h-96 bg-slate-300 mx-auto mt-[42px]overflow-hidden" style="background-image: url('https://source.unsplash.com/400x200?animal');">
+        <p class="p-5 text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nostrum commodi velit nemo quod soluta incidunt facere architecto, asperiores excepturi praesentium. Blanditiis, laboriosam tempore! Enim, quidem? Temporibus cum iure dolorum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo dolor quod delectus quo quidem rerum, culpa qui sit, repellendus alias assumenda molestias tempore fugiat enim inventore atque a sapiente ratione? Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+    </div>
+
+    <div class="max-w-xl mx-auto bg-center bg-no-repeat mt-32 h-96 bg-slate-300 rounded-2xl border-slate-400 overflow-hidden border-8 bg-blend-darken" style="background-image: url('./img/1.jpeg');">
+        <div class="w-full h-full bg-blue-300 mix-blend-multiply"></div>
+    </div>
+
+    <div class="my-52 max-w-xl h-96 bg-slate-300 shadow-xl shadow-slate-200 mx-auto flex">
+        <div class="w-[200px] h-[200px] bg-white/60 m-auto backdrop-blur-sm rounded-full"></div> 
+    </div>
 </body>
 </html>
